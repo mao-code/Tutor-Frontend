@@ -1,0 +1,69 @@
+html,
+body
+{
+    padding: 0;
+    margin: 0;
+    width: 100%;
+    height: 100%;
+}
+
+.container
+{
+    width: 100%;
+    height: 100%;
+}
+
+.top-bar
+{
+    width: 100%;
+    height: 10%;
+    background-color: #4fc08d;
+}
+.top-bar-content
+{
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.top-bar-title
+{
+    margin-right: 500px;
+    color: #fff;
+    font-size: 1.5rem;
+    font-weight: 500;
+}
+
+
+.content
+{
+    width: 100%;
+    height: 90%;
+    background-color: #e7e7e7;
+    display: flex;
+}
+.area
+{
+    width: 30%;
+    height: 100%;
+}
+.area-block
+{
+    width: 150px;
+    height: 500px;
+    background-color: #fff;
+    margin-left: auto;
+    margin-top: 30px;
+    padding: 10px;
+}
+.area-block > span
+{
+    color: #835807;
+    font-weight: 500;
+}
+
+.blocks
+{
+    width: 70%;
+    height: 100%;
+}

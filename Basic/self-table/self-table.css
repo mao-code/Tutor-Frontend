@@ -1,0 +1,10 @@
+.data
+{
+    background-color: rgb(120, 120, 255);
+    color: #fff;
+}
+
+#intro
+{
+    font-size: 2rem;
+}
