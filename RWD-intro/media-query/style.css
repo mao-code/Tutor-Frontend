@@ -1,0 +1,32 @@
+.row
+{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+}
+
+.col
+{
+    background-color: red;
+    width: 20%;
+    margin: 10px;
+    padding: 15px;
+    color: white;
+    text-align: center;
+}
+
+@media(max-width: 768px)
+{
+    .col
+    {
+        width: 45%;
+    }
+}
+
+@media(max-width: 576px)
+{
+    .col
+    {
+        width: 80%;
+    }
+}
