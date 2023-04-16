@@ -6,6 +6,7 @@
 * Media Query
 * CSS Framework (e.g. Bootstrap)
   * Grid system (12)
+  <img src="../images/bootstrap-grid-system.png"></img>
 
 # Approaches
 * Desktop First
