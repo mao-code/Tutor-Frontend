@@ -41,6 +41,7 @@ body
     height: 90%;
     background-color: #e7e7e7;
     display: flex;
+    overflow: scroll;
 }
 .area
 {
@@ -66,4 +67,84 @@ body
 {
     width: 70%;
     height: 100%;
+    padding-left: 30px;
+    overflow: scroll;
+    padding-bottom: 20px;
+}
+.block
+{
+    display: flex;
+    flex-direction: column;
+    background-color: #ffffff;
+    width: 550px;
+    height: 350px;
+    margin-top: 30px;
+}
+.top
+{
+    height: 55%;
+    border-bottom: 2px solid #e7e7e7;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+}
+.info > .title
+{
+    font-size: 20px;
+    font-weight: 500;
+}
+.info > .sub-title
+{
+    font-size: 15px;
+}
+.info > .tag-container > .tag
+{
+    display: inline-block;
+    background: #8080eb;
+    color: #ffffff;
+    font-size: 10px;
+    padding: 5px;
+    border-radius: 5px;
+}
+.info > .ele
+{
+    margin: 5px 0;
+}
+.address
+{
+    /* 注意，這邊是因為父元素是Flex，所以上下才會有剩餘空間，可以給auto做計算 */
+    /* auto: 會計算剩餘空間並佔據 */
+    margin-top: auto;
+}
+
+.bottom
+{
+    display: flex;
+    flex: 1;
+    padding: 10px;
+}
+.b-e
+{
+    display: flex;
+    height: 100%;
+    flex: 1;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.num-des
+{
+    font-size: 15px;
+}
+.num
+{
+    font-size: 50px;
+}
+.left
+{
+    color: #348862;
+}
+.right
+{
+    color: #ff7002;
 }
