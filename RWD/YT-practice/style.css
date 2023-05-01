@@ -1,0 +1,119 @@
+html,
+body
+{
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: 100%;
+    font-size: calc(15px + 0.390625vw);
+}
+
+.my-container
+{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    background-color: #0f0f0f;
+}
+
+.top-bar
+{
+    display: flex;
+    width: 100%;
+    height: 8%;
+    padding: 5px 20px;
+}
+.menu
+{
+    color: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 3vmin;
+}
+.yt-link
+{
+    display: inline-flex;
+    width: 10%;
+    justify-content: center;
+    align-items: center;
+    margin-left: 20px;
+}
+.yt-link > img
+{
+    height: 140%;
+}
+.inp-group
+{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 10px;
+    flex: 1;
+}
+.inp-group > input
+{
+    outline: none;
+    border: none;
+    background-color: #121212;
+    padding: 5px 20px;
+    border: 1px solid #303030;
+    border-radius: 20px 0 0 20px;
+    color: #fff;
+    height: 100%;
+    width: 55%;
+}
+.search-btn
+{
+    color: #fff;
+    background-color: #303030;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 5px 15px;
+    border-radius: 0 20px 20px 0;
+}
+
+.func-group
+{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+    width: 15%;
+}
+.func-group > .ele
+{
+    flex: 1;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #fff;
+}
+.func-group > .ele3
+{
+    height: 100%;
+    border-radius: 50%;
+}
+
+
+.main
+{
+    width: 100%;
+    flex: 1;
+    display: flex;
+}
+.my-navbar
+{
+    width: 20%;
+    height: 100%;
+}
+.content
+{
+    height: 100%;
+    flex: 1;
+    overflow-y: scroll;
+}

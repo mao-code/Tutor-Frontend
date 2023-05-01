@@ -15,6 +15,7 @@
     text-align: center;
 }
 
+/* <=768 */
 @media(max-width: 768px)
 {
     .col
@@ -23,10 +24,12 @@
     }
 }
 
+/* <=576px */
 @media(max-width: 576px)
 {
     .col
     {
         width: 80%;
+        font-size: 40px;
     }
 }

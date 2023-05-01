@@ -6,3 +6,6 @@
 <img src="../../images/YT-2.png" width="450px" style="margin-top: 20px"></img>
 
 <img src="../../images/YT-3.png" width="450px" style="margin-top: 20px"></img>
+
+# Resources
+* [FontAwsome](https://fontawesome.com/)
