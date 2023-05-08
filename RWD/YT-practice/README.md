@@ -9,3 +9,4 @@
 
 # Resources
 * [FontAwsome](https://fontawesome.com/)
+* [Text-overflow](https://www.astralweb.com.tw/css-ellipsis/)
