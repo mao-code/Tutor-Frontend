@@ -1,0 +1,64 @@
+#container
+{
+	display: inline-flex;
+    background-color: #dddddd;
+    flex-direction: column;
+    padding: 20px;
+    width: 50vmax;
+    position: relative;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+input[type=text]
+{
+	outline: none; 
+	border: 2px solid #cdcdcd;
+	width: 80%;
+	padding: 10px;
+	border-radius: 5px;
+	margin: 10px 0 10px 0;
+}
+
+input[type=text]:focus
+{
+	border: 2px solid red !important;
+}
+
+#play-btn
+{
+	padding: 15px;
+    background-color: #ed3c3c;
+    color: white;
+    text-align: center;
+    width: 40%;
+    border-radius: 5px;
+}
+
+#play-btn:hover
+{
+	background-color: #a52a2a;
+	cursor: pointer;
+}
+
+#result-table
+{
+	width: 86%;
+	margin-top: 20px;
+}
+
+table
+{
+	border: 1px solid #c8c8c8;
+	border-spacing: 0;
+}
+
+td
+{
+	padding: 13px;
+}
+
+.oddtr
+{
+	background-color: #c8c8c8;
+}
