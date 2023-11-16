@@ -30,7 +30,7 @@ function jqueryAjax()
     });    
 }
 
-function fetchAPI()
+async function fetchAPI()
 {
     fetch("https://api.agify.io/?name=bella")
     .then(response => response.json())
@@ -40,6 +40,9 @@ function fetchAPI()
     .catch(err => {
         console.log(err);
     });
+
+    // var res = await fetch("https://api.agify.io/?name=bella")
+    // var data = await res.json();
 
     // fetch(apiUrl, {
     //     method: 'POST',  // or 'PUT', 'DELETE', etc.
